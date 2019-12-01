@@ -1,0 +1,22 @@
+---
+title: "Team Project BMGT435"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Install some packages
+```{r, include=FALSE}
+library(readr)
+options(warn=-1)
+library(dplyr)
+library(car)
+
+```
+
+```{r,include=FALSE}
+data <- read_csv("C:/Users/admin/Desktop/BMGT430/autos.csv")
+attach(data)
+```
